@@ -22,6 +22,9 @@
   margin: 10px 10px;
   padding: 7px;
   border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
 }
 
 #channelServerSideMenu li.menu:hover,
@@ -69,5 +72,56 @@
 
 * html #channelServerSideMenu li a {
   display: inline;
+}
+
+#Body #Container div.partsHeading {
+  background-image: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+div.partsHeading h3 {
+  background-color: #5b809d;
+
+  font-style: inherit;
+  font-weight: 600;
+  color: #f9faff;
+  font-size: 100%;
+  margin: 0px 0 0 20px;
+  padding: 8px 20px;
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  -moz-border-radius-topleft: 8px;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-top-right-radius 8px;
+}
+
+div.channelServerParts,
+div.homeRecentList .parts .block {
+  background-color: #EEEEEE;
+  border: 1px solid #CCCCCC;
+  padding: 7px;
+  margin: 0;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+
+div.homeRecentList .parts .block ul.articleList {
+  background-color: #FFFFFF;
+  padding: 7px;
+}
+
+#LayoutA div.memberImageBox {
+  background: none;
+  border: none;
+}
+
+div.channelServerParts .body,
+div.channelServerParts dl,
+div.channelServerParts table {
+  background-color: #FFFFFF;
 }
 
