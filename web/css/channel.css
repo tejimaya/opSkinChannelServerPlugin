@@ -125,3 +125,26 @@ div.channelServerParts table {
   background-color: #FFFFFF;
 }
 
+#pluginSearchBox {
+  width: 350px;
+  margin-bottom: 25px;
+}
+
+#pluginSearchBox .input_text {
+  border-color: #D1D8E8;
+  border-style: solid;
+  border-width: 1px;
+  height: 16px;
+  padding: 5px;
+  width: 19em;
+}
+
+#pluginSearchBox .input_submit {
+  background: url(../images/search.gif) no-repeat scroll 0 0 transparent;
+  border: medium none;
+  height: 20px;
+  width: 60px;
+  text-decoration: none;
+  text-indent: -9999px;
+}
+
