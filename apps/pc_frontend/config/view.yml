@@ -1,2 +1,2 @@
 default:
-  stylesheets:    [/opSkinChannelServerPlugin/css/main.css]
+  stylesheets:    [/opSkinChannelServerPlugin/css/main.css, /opSkinChannelServerPlugin/css/channel.css]

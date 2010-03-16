@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+#Contents {
+  background: #f7fbfc;
+  border-left: solid 1px #CCCCEE;
+  border-right: solid 1px #444466;
+  margin: 0 auto;
+  padding: 0 25px;
+  width: 1000px;
+  -webkit-box-shadow: 7px 3px 7px #777777;
+}
+
+#Container {
+  background: transparent url(../images/bg_contents.gif) repeat-x scroll 0 0;
+}
+
+#channelServerSideMenu {
+  margin-bottom: 0px;
+  margin-top: 10px;
+  background:none repeat scroll 0 0 #EEEEEE;
+  width: 140px;
+  margin: 10px 10px;
+  padding: 7px;
+  border: 1px solid #CCCCCC;
+}
+
+#channelServerSideMenu li.menu:hover,
+#channelServerSideMenu ul li:hover {
+  background: #EEEEEE url(../images/icon_1.gif) no-repeat 0 10px;
+}
+
+#channelServerSideMenu li a {
+  padding: 0px;
+  text-decoration: none;
+  display: block;
+  background: transparent;
+  color: #000000;
+  text-align: left;
+}
+
+#channelServerSideMenu li ul li {
+  padding : 0 15px;
+  margin: 0;
+}
+
+#channelServerSideMenu li {
+  background-color: #FFFFFF;
+}
+
+#channelServerSideMenu li.menu {
+  padding: 0 0 0 8px;
+}
+
+#channelServerSideMenu li.tree span.parentTitle {
+  padding: 0 0 0 8px;
+}
+
+#channelServerSideMenu li.menu,
+#channelServerSideMenu li.tree {
+  line-height: 30px;
+  border-bottom: 1px dotted #AAAAAA;
+  font-size: 80%;
+}
+
+* html #channelServerSideMenu li {
+  float: none;
+  display: inline;
+}
+
+* html #channelServerSideMenu li a {
+  display: inline;
+}
+
